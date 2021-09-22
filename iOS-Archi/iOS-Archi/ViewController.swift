@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    lazy var preseter = Presenter(with: self)
+    lazy var viewModel = ViewModel(with: self)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,15 +17,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnTapMe(_ sender: UIButton) {
-        preseter.onTapMe()
+        viewModel.onTapMe()
     }
     
 }
 
-extension ViewController: PresenterView {
-    
+extension ViewController: ViewControllerDelegate {
     func onUpdateView() {
-        self.view.backgroundColor = .random
+        self.view.backgroundColor = viewModel.color
     }
 }
 
