@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    lazy var preseter = Presenter(with: self)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,9 +17,16 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnTapMe(_ sender: UIButton) {
-        self.view.backgroundColor = .random
+        preseter.onTapMe()
     }
     
+}
+
+extension ViewController: PresenterView {
+    
+    func onUpdateView() {
+        self.view.backgroundColor = .random
+    }
 }
 
 

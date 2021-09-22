@@ -5,7 +5,7 @@
 //  Created by Ye Ko on 22/09/2021.
 //
 
-import Foundation
+import UIKit
 
 extension UIColor {
     static var random: UIColor {

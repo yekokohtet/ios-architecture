@@ -14,6 +14,7 @@
 		B72DC06E26FAE93F00C98E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B72DC06D26FAE93F00C98E2E /* Assets.xcassets */; };
 		B72DC07126FAE93F00C98E2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72DC06F26FAE93F00C98E2E /* LaunchScreen.storyboard */; };
 		B72DC07926FAEBA600C98E2E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72DC07826FAEBA600C98E2E /* Extensions.swift */; };
+		B72DC07B26FAEC0700C98E2E /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72DC07A26FAEC0700C98E2E /* Presenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B72DC07026FAE93F00C98E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B72DC07226FAE94000C98E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B72DC07826FAEBA600C98E2E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B72DC07A26FAEC0700C98E2E /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				B72DC06426FAE93C00C98E2E /* AppDelegate.swift */,
 				B72DC06626FAE93C00C98E2E /* SceneDelegate.swift */,
 				B72DC06826FAE93C00C98E2E /* ViewController.swift */,
+				B72DC07A26FAEC0700C98E2E /* Presenter.swift */,
 				B72DC06A26FAE93C00C98E2E /* Main.storyboard */,
 				B72DC06D26FAE93F00C98E2E /* Assets.xcassets */,
 				B72DC06F26FAE93F00C98E2E /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				B72DC06526FAE93C00C98E2E /* AppDelegate.swift in Sources */,
 				B72DC06726FAE93C00C98E2E /* SceneDelegate.swift in Sources */,
 				B72DC07926FAEBA600C98E2E /* Extensions.swift in Sources */,
+				B72DC07B26FAEC0700C98E2E /* Presenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
